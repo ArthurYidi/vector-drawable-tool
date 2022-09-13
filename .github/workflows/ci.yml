@@ -12,7 +12,7 @@ jobs:
       - name: Set up Java
         uses: graalvm/setup-graalvm@v1
         with:
-          distribution: 'latest'
+          version: 'latest'
           java-version: '11'
           components: 'native-image'
           github-token: ${{ secrets.GITHUB_TOKEN }}
