@@ -1,6 +1,6 @@
 # Vector Drawable Tool
 
-Converts SVG files to VectorDrawable XML files.
+Converts SVG files to VectorDrawable XML files for use in Android projects.
 
 ## Getting Started
 
