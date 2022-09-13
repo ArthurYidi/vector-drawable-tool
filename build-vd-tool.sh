@@ -3,7 +3,8 @@ set -euo pipefail
 
 # download version
 curl -s -L -o "version.tar.gz" https://android.googlesource.com/platform/tools/buildSrc/+archive/refs/heads/studio-main/base.tar.gz
-tar -xf "version.tar.gz" "gradle.properties"
+tar -xf "version.tar.gz" "version.properties"
+mv "version.properties" "gradle.properties"
 
 # download source
 curl -s -L -o "source.tar.gz" https://android.googlesource.com/platform/tools/base/+archive/refs/heads/studio-main/vector-drawable-tool.tar.gz
