@@ -7,7 +7,7 @@ Converts SVG files to VectorDrawable XML files.
 __Requires:__ Java 11
 
 - Download the latest [vd-tool.zip](https://github.com/ArthurYidi/vector-drawable-tool/releases/latest)
-- Run `./vd-tool/bin/vd-tool`
+- Run `./bin/vd-tool`
 
 ## Options
 
