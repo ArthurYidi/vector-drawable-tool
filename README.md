@@ -2,11 +2,20 @@
 
 Converts SVG files to VectorDrawable XML files.
 
+## Getting Started
+
+__Requires:__ Java 11
+
+- Download the latest [vd-tool.zip](https://github.com/ArthurYidi/vector-drawable-tool/releases/latest)
+- Run `./vd-tool/bin/vd-tool`
+
+## Options
+
+
 ```
 Usage: [-c] [-d] [-in <file or directory>] [-out <directory>] [-widthDp <size>] [-heightDp <size>] [-addHeader]
 ```
 
-## Options
 ```
   -in <file or directory>:  If -c is specified, Converts the given .svg file 
                             to VectorDrawable XML, or if a directory is specified,
@@ -48,3 +57,4 @@ Display VectorDrawable's XML files from <directory>:
 ```  
 vd-tool -d -in <directory>
 ```
+
