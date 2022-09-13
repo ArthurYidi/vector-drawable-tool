@@ -19,11 +19,10 @@ jobs:
 
       - name: Versions
         run: |
-          echo "GRAALVM_HOME: $GRAALVM_HOME"
-          echo "JAVA_HOME: $JAVA_HOME"
           java --version
           gu --version
           native-image --version
+          gradle --version
 
       - name: Build vd-tool
         run: ./build-vd-tool.sh

@@ -12,7 +12,7 @@ mkdir -p tools/base/vector-drawable-tool
 tar -xf source.tar.gz --directory tools/base/vector-drawable-tool
 
 # build bundle
-gradle :tools:base:vector-drawable-tool:assembleDist --no-daemon
+gradle -q :tools:base:vector-drawable-tool:assembleDist --no-daemon
 
 # build native
 # gradle :tools:base:vector-drawable-tool:nativeCompile --no-daemon
