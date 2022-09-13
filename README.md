@@ -58,3 +58,12 @@ Display VectorDrawable's XML files from <directory>:
 vd-tool -d -in <directory>
 ```
 
+---
+
+### About
+
+This repo easily provides the CLI (command line tool) available in Android Studio.
+
+#### Based On
+
+- [vd-tool](https://github.com/rharter/vd-tool) [(@rharter)](https://github.com/rharter) 
