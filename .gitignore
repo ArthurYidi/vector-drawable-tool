@@ -1,0 +1,6 @@
+.gradle
+buildSrc/build
+tools/
+source.tar.gz
+version.tar.gz
+gradle.properties

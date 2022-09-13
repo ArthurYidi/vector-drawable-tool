@@ -1,0 +1,20 @@
+dependencyResolutionManagement {
+  repositories {
+    mavenCentral()
+    google()
+    gradlePluginPortal()
+  }
+
+  versionCatalogs {
+    libs {
+      version('android-tools', baseVersion)
+      library('com-android-tools-sdkCommon', 'com.android.tools', 'sdk-common').versionRef('android-tools')
+      library('com-android-tools-common', 'com.android.tools', 'common').versionRef('android-tools')
+      library('com-android-tools-annotations', 'com.android.tools', 'annotations').versionRef('android-tools')
+      library('com-android-tools-testutils', 'com.android.tools', 'testutils').versionRef('android-tools')
+      library('junit', 'junit:junit:4.13.2')
+    }
+  }
+}
+
+include ':tools:base:vector-drawable-tool'
